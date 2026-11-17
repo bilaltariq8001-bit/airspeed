@@ -1,0 +1,28 @@
+# Gradle & Android Studio
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+.idea/
+*.iml
+captures/
+.cxx/
+.externalNativeBuild/
+.navigation/
+
+# Keystores & Secrets
+*.jks
+*.keystore
+secrets.properties
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+.gmp_cache/
+
+# Existing template web files
+node_modules/
+dist/

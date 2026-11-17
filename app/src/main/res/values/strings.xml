@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Velocity</string>
+
+    <!-- Units -->
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_mph">mph</string>
+    <string name="unit_knots">knots</string>
+    <string name="unit_meters_short">m</string>
+    <string name="unit_kilometers_short">km</string>
+    <string name="unit_miles_short">mi</string>
+    <string name="unit_nautical_miles_short">nm</string>
+    <string name="unit_feet_short">ft</string>
+
+    <!-- Compass -->
+    <string name="compass_n">N</string>
+    <string name="compass_ne">NE</string>
+    <string name="compass_e">E</string>
+    <string name="compass_se">SE</string>
+    <string name="compass_s">S</string>
+    <string name="compass_sw">SW</string>
+    <string name="compass_w">W</string>
+    <string name="compass_nw">NW</string>
+    <string name="compass_unavailable">--</string>
+
+    <!-- GPS Status -->
+    <string name="gps_accuracy_meters">±%1$d m</string>
+    <string name="gps_no_fix">No GPS fix</string>
+    <string name="gps_searching">Searching</string>
+    <string name="cd_gps_status">GPS signal status: %1$s</string>
+
+    <!-- Main Speedometer Screen -->
+    <string name="mode_analog">ANALOG</string>
+    <string name="mode_digital">DIGITAL</string>
+    <string name="stat_max">MAX</string>
+    <string name="stat_avg">AVG</string>
+    <string name="stat_distance">DISTANCE</string>
+    <string name="stat_duration">DURATION</string>
+    <string name="stat_altitude">ALTITUDE</string>
+    <string name="stat_heading">HEADING</string>
+    <string name="stat_odometer">ODO %1$s</string>
+    <string name="action_start">START</string>
+    <string name="action_pause">PAUSE</string>
+    <string name="action_resume">RESUME</string>
+    <string name="action_stop">STOP</string>
+    <string name="speed_limit_badge">LIMIT %1$d %2$s</string>
+    <string name="over_limit_warning">SPEED LIMIT EXCEEDED</string>
+    <string name="trip_auto_paused">AUTO-PAUSED</string>
+    <string name="trip_paused">PAUSED</string>
+    <string name="cd_speed_readout">Current speed %1$d %2$s</string>
+    <string name="cd_tap_unit">Tap to switch speed unit, currently %1$s</string>
+    <string name="cd_hud_button">Open windshield HUD mode</string>
+    <string name="cd_history_button">Open trip history</string>
+    <string name="cd_settings_button">Open settings</string>
+    <string name="cd_start_trip">Start recording trip</string>
+    <string name="cd_pause_trip">Pause recording trip</string>
+    <string name="cd_resume_trip">Resume recording trip</string>
+    <string name="cd_stop_trip">Stop and save trip</string>
+    <string name="cd_analog_gauge">Analog speedometer gauge showing %1$d %2$s</string>
+
+    <!-- HUD Screen -->
+    <string name="hud_title">HUD MODE</string>
+    <string name="hud_tap_to_exit">Tap anywhere to exit HUD • Long press to flip mirror</string>
+    <string name="cd_hud_exit">Exit HUD mode</string>
+
+    <!-- Permission Screen -->
+    <string name="permission_title">Precision GPS Access</string>
+    <string name="permission_subtitle">Velocity uses high-accuracy GPS directly on your device to calculate real-time speed, distance, altitude, and trip routes.</string>
+    <string name="permission_fine_title">Precise Location</string>
+    <string name="permission_fine_desc">Required to measure live speed and record your route accurately.</string>
+    <string name="permission_bg_title">Background Location</string>
+    <string name="permission_bg_desc">Allows trips to keep recording seamlessly when your screen turns off.</string>
+    <string name="permission_notif_title">Trip Notification</string>
+    <string name="permission_notif_desc">Displays live speed and quick Pause/Stop controls in your status bar.</string>
+    <string name="permission_allow">Allow</string>
+    <string name="permission_allow_background">Enable Background Tracking</string>
+    <string name="permission_not_now">Not now</string>
+    <string name="permission_denied_title">Location Permission Required</string>
+    <string name="permission_denied_body">Location access was permanently denied. Enable Precise Location in App Settings so Velocity can measure speed.</string>
+    <string name="permission_open_settings">Open App Settings</string>
+    <string name="permission_granted">Granted</string>
+    <string name="permission_optional">Optional</string>
+    <string name="cd_permission_icon">Permission category icon</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="notif_channel_id">velocity_tracking_channel</string>
+    <string name="notif_channel_name">Live Trip Tracking</string>
+    <string name="notif_channel_desc">Shows live speed and trip distance while recording.</string>
+    <string name="notif_title_recording">Velocity • Recording Trip</string>
+    <string name="notif_title_paused">Velocity • Trip Paused</string>
+    <string name="notif_body_format">%1$d %2$s • %3$s</string>
+    <string name="notif_action_pause">Pause</string>
+    <string name="notif_action_resume">Resume</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Trip History</string>
+    <string name="history_empty_title">No Trips Recorded Yet</string>
+    <string name="history_empty_subtitle">Press START on the speedometer to record your first trip with route map and speed telemetry.</string>
+    <string name="history_delete_all">Delete All</string>
+    <string name="history_delete_trip">Delete Trip</string>
+    <string name="history_delete_one_title">Delete this trip?</string>
+    <string name="history_delete_one_message">This will permanently remove the trip and all of its GPS track points.</string>
+    <string name="history_delete_all_title">Delete all trips?</string>
+    <string name="history_delete_all_message">All saved trips and route history will be permanently deleted. Your lifetime odometer will remain unchanged.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_delete_trip">Delete trip</string>
+    <string name="cd_delete_all_trips">Delete all trips</string>
+
+    <!-- Trip Detail Screen -->
+    <string name="detail_title">Trip Details</string>
+    <string name="detail_route_map">ROUTE MAP</string>
+    <string name="detail_speed_chart">SPEED OVER TIME</string>
+    <string name="detail_no_points">Not enough GPS points to render route.</string>
+    <string name="detail_export_gpx">Export GPX</string>
+    <string name="detail_export_csv">Export CSV</string>
+    <string name="detail_share_chooser">Share trip export</string>
+    <string name="detail_map_fallback_notice">OpenStreetMap preview (add MAPS_API_KEY in local.properties for Google Maps)</string>
+    <string name="detail_start_marker">Start</string>
+    <string name="detail_end_marker">Finish</string>
+    <string name="cd_export_gpx">Export trip as GPX file</string>
+    <string name="cd_export_csv">Export trip as CSV file</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_display">DISPLAY &amp; UNITS</string>
+    <string name="settings_section_alerts">SPEED LIMIT ALERTS</string>
+    <string name="settings_section_tracking">GPS &amp; TRIP</string>
+    <string name="settings_section_data">ODOMETER &amp; INFO</string>
+    <string name="settings_unit_label">Speed Unit</string>
+    <string name="settings_theme_label">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="settings_default_view_label">Default Gauge View</string>
+    <string name="view_analog">Analog</string>
+    <string name="view_digital">Digital</string>
+    <string name="settings_speed_limit_toggle">Speed Limit Alert</string>
+    <string name="settings_speed_limit_value">Limit (%1$d %2$s)</string>
+    <string name="settings_alert_vibration">Alert Vibration</string>
+    <string name="settings_alert_sound">Alert Sound</string>
+    <string name="settings_keep_screen_on">Keep Screen On</string>
+    <string name="settings_auto_pause">Auto-Pause When Stopped</string>
+    <string name="settings_auto_pause_desc">Pause trip automatically below 2 km/h for 60 seconds</string>
+    <string name="settings_gps_interval">GPS Update Interval</string>
+    <string name="interval_500ms">500 ms</string>
+    <string name="interval_1s">1 s</string>
+    <string name="interval_2s">2 s</string>
+    <string name="settings_odometer_title">Lifetime Odometer</string>
+    <string name="settings_reset_odometer">Reset Odometer</string>
+    <string name="settings_reset_odometer_title">Reset lifetime odometer?</string>
+    <string name="settings_reset_odometer_message">This resets your lifetime distance counter to zero. Saved trips are not affected.</string>
+    <string name="action_reset">Reset</string>
+    <string name="settings_about">About Velocity</string>
+    <string name="cd_about_button">Open About Velocity</string>
+
+    <!-- About Screen -->
+    <string name="about_title">About Velocity</string>
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_tagline">Precision offline-first GPS speedometer and automotive telemetry.</string>
+    <string name="about_privacy_title">Privacy &amp; Data</string>
+    <string name="about_privacy_body">Velocity processes all GPS speed, altitude, compass heading, and trip history strictly on your device. No telemetry, analytics, or location data is uploaded to any server. Network access is used solely when loading online map tiles on the Trip Detail screen or downloading fonts.</string>
+    <string name="about_maps_notice_title">Maps Notice</string>
+    <string name="about_maps_notice_body">Trip route maps use Google Maps SDK for Android when configured with an API key, or OpenStreetMap via osmdroid offline-capable tiles as a fallback.</string>
+</resources>
